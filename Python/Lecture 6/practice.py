@@ -33,9 +33,18 @@ cal_fact(9)
 
 #WAF to convert USD to RS.
 
-def converter(usd_val):
+def converterpkr(usd_val):
     pkr_val = usd_val * 278
     print(usd_val, "USD", pkr_val, "PKR")
 
-converter(73)
+converterpkr(73)
+
+#WAF to convert USD to RS.
+def converterinr(usd_val):
+    inr_val = usd_val * 83
+    print(usd_val, "USD", inr_val, "INR")
+
+converterinr(73)
+
+#---------------------------------------------------Recursion--------------------------------
 
