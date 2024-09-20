@@ -46,5 +46,13 @@ def converterinr(usd_val):
 
 converterinr(73)
 
+#WAF to convert inr to RS.
+
+def converter(inr_val):
+    pkr_val = inr_val * 3.33
+    print(inr_val, "INR", pkr_val, "PKR")
+
+converter(73)
+
 #---------------------------------------------------Recursion--------------------------------
 
