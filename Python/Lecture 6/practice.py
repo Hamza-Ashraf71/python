@@ -55,4 +55,24 @@ def converter(inr_val):
 converter(73)
 
 #---------------------------------------------------Recursion--------------------------------
+#Write a recursive function to calculate the sum of first n natural numbers.
 
+def calc_Sum(n):
+    if(n == 0):
+        return 0
+    return calc_Sum(n-1) + n
+
+sum = calc_Sum(10)
+print(sum)
+
+
+# Write a recursive function to print all elements in the list.
+
+def print_List(list, idx=0):
+    if(idx == len(list)):
+        return
+    print(list[idx])
+    print_List(list, idx+1)
+
+fruits = ["Mango", "Banana", "Grapes", "Apple"]
+print_List(fruits)
